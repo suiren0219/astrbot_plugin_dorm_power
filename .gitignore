@@ -1,0 +1,16 @@
+# AstrBot 运行时会生成/读取的本地配置（各人自己填，不进仓库）
+config.yaml
+
+# 运行时数据
+data/
+*.log
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# 本地编辑器/系统文件
+.vscode/
+.idea/
+.DS_Store

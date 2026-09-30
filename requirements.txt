@@ -1,0 +1,6 @@
+aiohttp>=3.9
+PyYAML>=6.0
+APScheduler>=3.10
+# 可选：装上后账号与房间信息用 Fernet(AES) 加密落盘；
+# 不装则自动回退到内置 PBKDF2 方案（零依赖，强度较低）。
+cryptography>=42.0
