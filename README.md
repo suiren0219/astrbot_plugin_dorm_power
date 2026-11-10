@@ -69,3 +69,9 @@ command `JBSWaterElecService`，核心 cmd：`h5_getstuindexpage`（电量详情
 
 > 该接口是完美校园的私有协议，随时可能变更。插件已把地址、command、各 cmd 名、电量字段做成配置项，
 > 并把解析不出电量时的「结构指纹」记到日志里，便于快速适配；真失效时只能重新抓包。
+
+## 许可证
+
+本项目以 [GNU Affero General Public License v3.0](LICENSE)（AGPL-3.0）开源。
+
+允许自由使用、学习、修改及商业分发；若分发修改版，或以网络服务形式向他人提供本项目或修改版，须同样以 AGPL-3.0 公开完整对应源代码。协议全文见 [LICENSE](LICENSE)。
